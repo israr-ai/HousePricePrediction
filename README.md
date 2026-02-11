@@ -1,6 +1,5 @@
 # 🏠 House Price Prediction Web App (Flask + ML)
-![Uploading Screenshot 2026-02-11 162624.png…]()
-![Uploading Screenshot 2026-02-11 162712.png…]()
+
 
 ![alt text](<Screenshot 2026-02-11 162624.png>)
 ![alt text](<Screenshot 2026-02-11 162712.png>)
@@ -13,6 +12,7 @@ This is a Machine Learning project that predicts house prices based on user inpu
 - Model trained using Scikit-learn
 
 ## 📂 Project Structure~
+```
 HousePricePrediction/
 │── app.py
 │── train_model.py
@@ -23,7 +23,7 @@ HousePricePrediction/
 │ └── index.html
 │── static/
 └── style.css
-
+```
 
 ## 🧠 ML Algorithm Used
 - Linear Regression
@@ -52,12 +52,9 @@ pip install -r requirements.txt
 
 ```
 
-📌 Train the Model
-
-Make sure dataset file is available in project folder:
-
+## Train the Model
+```
 Housing.csv
-
 
 Now run:
 
@@ -69,6 +66,8 @@ After training, it will generate:
 model.pkl
 
 scaler.pkl
+
+```
 
 ▶️ Run Flask App
 python app.py
