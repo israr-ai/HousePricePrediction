@@ -2,6 +2,8 @@
 ![Uploading Screenshot 2026-02-11 162624.png…]()
 ![Uploading Screenshot 2026-02-11 162712.png…]()
 
+![alt text](<Screenshot 2026-02-11 162624.png>)
+![alt text](<Screenshot 2026-02-11 162712.png>)
 This is a Machine Learning project that predicts house prices based on user input.
 
 ## 🚀 Features
@@ -10,7 +12,7 @@ This is a Machine Learning project that predicts house prices based on user inpu
 - Flask-based deployment
 - Model trained using Scikit-learn
 
-## 📂 Project Structure
+## 📂 Project Structure~
 HousePricePrediction/
 │── app.py
 │── train_model.py
