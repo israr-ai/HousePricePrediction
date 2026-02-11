@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🏠 House Price Prediction</h1>
+    <p>Enter details to predict house price</p>
+
+    <form method="POST">
+
+        <label>Area (sq ft):</label>
+        <input type="number" step="0.01" name="area" required>
+
+        <label>Bedrooms:</label>
+        <input type="number" name="bedrooms" required>
+
+        <label>Bathrooms:</label>
+        <input type="number" name="bathrooms" required>
+
+        <label>Parking:</label>
+        <input type="number" name="parking" required>
+
+        <label>Air Conditioning:</label>
+        <select name="airconditioning" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <label>Furnishing Status:</label>
+        <select name="furnishingstatus" required>
+            <option value="furnished">Furnished</option>
+            <option value="semi-furnished">Semi-Furnished</option>
+            <option value="unfurnished">Unfurnished</option>
+        </select>
+
+        <button type="submit">Predict Price</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result">
+        <h2>Predicted House Price:</h2>
+        <p>₹ {{ prediction }}</p>
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
