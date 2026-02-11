@@ -5,4 +5,4 @@ gunicorn
 scikit-learn
 joblib
 matplotlib
-seaborn
+# seaborn
