@@ -1,6 +1,5 @@
 # 🏠 House Price Prediction Web App (Flask + ML)
-![Uploading Screenshot 2026-02-11 162624.png…]()
-![Uploading Screenshot 2026-02-11 162712.png…]()
+
 
 ![alt text](<Screenshot 2026-02-11 162624.png>)
 ![alt text](<Screenshot 2026-02-11 162712.png>)
