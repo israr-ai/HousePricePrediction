@@ -1,4 +1,6 @@
 # 🏠 House Price Prediction Web App (Flask + ML)
+![Uploading Screenshot 2026-02-11 162624.png…]()
+![Uploading Screenshot 2026-02-11 162712.png…]()
 
 This is a Machine Learning project that predicts house prices based on user input.
 
